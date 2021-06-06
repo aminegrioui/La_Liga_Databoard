@@ -19,13 +19,15 @@ public class TeamController {
     @Autowired
     private ServiceTeam serviceTeam;
 
-    @GetMapping("/team/{teamName}")
+    @GetMapping("/teams")
+    public List<Team> getAllTeams(){
+        return serviceTeam.getAllTeams();
+    }
 
+    @GetMapping("/team/{teamName}")
     public Team findByName(@PathVariable String teamName){
         Team team=serviceTeam.findByTeamName(teamName);
-
         return  team;
-
     }
 
     @GetMapping("/team/{teamName}/matches")

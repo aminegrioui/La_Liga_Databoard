@@ -25,6 +25,10 @@ public class ServiceTeam {
     @Autowired
     MatchRepository matchRepository;
 
+    public List<Team> getAllTeams(){
+        return teamRepository.findAll();
+    }
+
 
     /*
          findByTeam to get Team with a teamName
