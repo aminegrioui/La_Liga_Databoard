@@ -23,6 +23,7 @@ public class Team {
 
     private long totalMatches;
     private long totalWins;
+    private long totalDraws;
 
     @Transient
     // A list of Matches but with converted date date(String) --> date(LocalDates)

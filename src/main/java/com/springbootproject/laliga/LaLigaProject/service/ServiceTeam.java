@@ -112,14 +112,19 @@ public class ServiceTeam {
         }).sorted(Comparator.comparing(MatchWithDate::getDate).reversed()).collect(Collectors.toList());
 
         // Get matchWins of this teamName using streams
-        int matchWins= (int) matches1.stream().filter(match ->
+        int totalWins= (int) matches1.stream().filter(match ->
                 (match.getHomeTeam().equals(teamName) || match.getAwayTeam().equals(teamName)) && match.getFTR().equals("H")).
+                count();
+        int totalDraws= (int) matches1.stream().filter(match ->
+                (match.getHomeTeam().equals(teamName) || match.getAwayTeam().equals(teamName)) && match.getFTR().equals("D")).
                 count();
 
         if(team!=null){
 
                 team.setMatches(matches1.subList(0,5));
-               team.setTotalWins(matchWins);
+               team.setTotalWins(totalWins);
+               team.setTotalDraws(totalDraws);
+
 
         }
 
