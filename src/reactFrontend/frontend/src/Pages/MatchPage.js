@@ -17,6 +17,9 @@ const MatchPage = () =>{
         fetchData()
     }, [teamName,year])
      
+    if(matches.length==0){
+        return <h1>in {year} {teamName} is not in the La Liga </h1>
+    }
     
     return <div className="MatchPage">
      
