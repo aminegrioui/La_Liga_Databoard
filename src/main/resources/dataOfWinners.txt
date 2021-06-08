@@ -1,0 +1,26 @@
+2020-21,Atletico Madrid,Real Madrid
+2019-20,RealMadrid,Barcelona
+2018-19,FC Barcelona,Atlético Madrid
+2017-18,FC Barcelona,Atlético Madrid
+2016–17,Real Madrid,FC Barcelona
+2015–16,FC Barcelona,Real Madrid
+2014–15,FC Barcelona,Real Madrid
+2013–14,Atlético Madrid,FC Barcelona
+2012–13,FC Barcelona,Real Madrid
+2011–12,Real Madrid,FC Barcelona
+2010–11,FC Barcelona,Real Madrid
+2009–10,FC Barcelona,Real Madrid
+2008–09,FC Barcelona,Real Madrid
+2007–08,Real Madrid,Villarreal
+2006–07,Real Madrid,FC Barcelona
+2005–06,FC Barcelona,Real Madrid
+2004–05,FC Barcelona,Real Madrid
+2003–04,Valencia,FC Barcelona
+2002–03,Real Madrid,Real Sociedad
+2001–02,Valencia,Deportivo La Coruña
+2000–01,Real Madrid,Deportivo La Coruña
+1999–2000,Deportivo La Coruña,FC Barcelona
+1998–99,FC Barcelona,Real Madrid
+1997–98,FC Barcelona,Athletic Bilbao
+1996–97,Real Madrid,FC Barcelona
+1995–96,Atlético Madrid,Valencia
