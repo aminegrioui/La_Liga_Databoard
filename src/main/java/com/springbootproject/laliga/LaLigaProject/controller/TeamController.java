@@ -41,6 +41,9 @@ public class TeamController {
        return serviceTeam.getMatchesForTeamNameByYear(teamName,year);
 
     }
+    public String sayHi(){
+        return  "say Hello from main Branch";
+    }
 
 
 }
