@@ -21,6 +21,7 @@ public class TeamController {
     public String sayHello(){
         return "say Hello  from Branch feature";
     }
+
     @GetMapping("/teams")
     public List<Team> getAllTeams(){
         return serviceTeam.getAllTeams();
@@ -41,8 +42,5 @@ public class TeamController {
 
     }
 
-    public String sayHi(){
-        return  "say Hello from main Branch";
-    }
 
 }
