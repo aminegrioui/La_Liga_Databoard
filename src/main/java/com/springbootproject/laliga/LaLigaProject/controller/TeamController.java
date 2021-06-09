@@ -17,6 +17,10 @@ public class TeamController {
     @Autowired
     private ServiceTeam serviceTeam;
 
+    @GetMapping("/")
+    public String sayHello(){
+        return "say Hello  from Branch feature";
+    }
     @GetMapping("/teams")
     public List<Team> getAllTeams(){
         return serviceTeam.getAllTeams();
