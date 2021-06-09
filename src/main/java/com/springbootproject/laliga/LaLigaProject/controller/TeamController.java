@@ -17,10 +17,7 @@ public class TeamController {
     @Autowired
     private ServiceTeam serviceTeam;
 
-    @GetMapping("/")
-    public String sayHello(){
-        return "say Hello  from Branch feature";
-    }
+   
 
     @GetMapping("/teams")
     public List<Team> getAllTeams(){
@@ -41,9 +38,6 @@ public class TeamController {
        return serviceTeam.getMatchesForTeamNameByYear(teamName,year);
 
     }
-    public String sayHi(){
-        return  "say Hello from main Branch";
-    }
-
+ 
 
 }
