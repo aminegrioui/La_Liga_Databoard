@@ -37,4 +37,8 @@ public class TeamController {
 
     }
 
+    public String sayHi(){
+        return  "say Hello from main Branch";
+    }
+
 }
