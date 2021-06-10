@@ -2,9 +2,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20px;
-    .name,match-date,match-homeTeam,match-result{
-        margin: 15px;
+    .match-date,match-homeTeam,match-result{
+        margin: 10px;
     }
+    height: 180px;
+    width: 930px;
   
     
 

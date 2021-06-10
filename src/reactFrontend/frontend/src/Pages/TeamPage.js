@@ -11,8 +11,8 @@ const TeamPage = () =>{
     let lastYear=2020;
     const fetchData =  async () =>{
         const reponse=await fetch(`http://localhost:8080/team/${teamName}`)
+        console.log(reponse)
         const data=await reponse.json()
-        console.log(data)
         setTeam(data)
     }
     React.useEffect(() =>{
