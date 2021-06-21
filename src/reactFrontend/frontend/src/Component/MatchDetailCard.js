@@ -36,7 +36,7 @@ const MatchDetailCard = ({teamName,match}) =>{
   
 
     return (<div className= { flag ==='green' ? 'MatchDetailCard wonCard': flag==='red'? 'MatchDetailCard lostCard': 'MatchDetailCard drawCard'}>
-                   {console.log(flag)}
+                
            <div>
               
                   <h3>Latest Matches  </h3>
@@ -45,8 +45,8 @@ const MatchDetailCard = ({teamName,match}) =>{
                             {otherTeamName} 
                         </Link>  
                     </h1>
-             
-              <div >
+                    </div>
+              <div>
                   <h4 className="match-date">{match.date}</h4>
               
               
@@ -56,7 +56,7 @@ const MatchDetailCard = ({teamName,match}) =>{
                  <h4 className="match-result"> Result :  {match.homeTeam} {match.fthg} - {match.ftag}  {match.awayTeam} </h4>
               </div>
               
-        </div>
+        
        
     </div>)
 }
